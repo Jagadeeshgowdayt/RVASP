@@ -43,9 +43,9 @@ SUPPORT_CHAT_ID = int(environ.get('SUPPORT_CHAT_ID',"-1001950855678"))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jagadeesh:jagadeesh@jagadeesh.infntie.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "jagadeesh")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'jagadeesh')
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
