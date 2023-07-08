@@ -13,7 +13,7 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID',16564172])
+API_ID = int(environ['API_ID','16564172'])
 API_HASH = environ['API_HASH',"f0184f4c1bad2efdc2f59b8591c7a839"]
 BOT_TOKEN = environ['BOT_TOKEN',"6085426494:AAHrQeLg1JTWY4OxwJND_CPNrhYoHPYSaAA"]
 
@@ -29,7 +29,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a
 # Admins, Channels & Users
 support_chat_id = environ.get('SUPPORT_CHAT_ID')
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS',1946827941).split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS','1946827941').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001882800682').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
