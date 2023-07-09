@@ -94,7 +94,7 @@ async def start(client, message):
                     InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat=''),
                     InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url="https://t.me/bengaluru_boys_movie_kannada")
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -191,7 +191,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/bengaluru_boys_movie_kannada")
                        ],[
                           InlineKeyboardButton("💛❤", url="https://graph.org/file/4add35bca501767e8428f.jpg")
                          ]
@@ -210,7 +210,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/bengaluru_boys_movie_kannada")
                        ],[
                           InlineKeyboardButton("💛❤", url="https://graph.org/file/4add35bca501767e8428f.jpg")
                          ]
@@ -383,7 +383,7 @@ async def start(client, message):
             [
              [
               InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/bengaluru_boys_movie_kannada")
            ],[
               InlineKeyboardButton("💛❤", url="https://graph.org/file/4add35bca501767e8428f.jpg")
              ]
