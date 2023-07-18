@@ -90,14 +90,11 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('ab', url='https://t.me/kannada_movie_requested')
+                    InlineKeyboardButton('⤬ Aᴅᴅ your friends Gʀᴏᴜᴘ for new movies ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat=''),
-                    InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/kannada_movie_d")
-                ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url="https://t.me/bengaluru_boys_movie_kannada")
-                ],[
-                    InlineKeyboardButton('Hero List', callback_data="KANNADA HERO"),
+                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ & help & support ', callback_data="owner_info")
+                ,[
+                    InlineKeyboardButton('Hero List', callback_data="HERO"),
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -137,12 +134,11 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('ab', url='https://t.me/kannada_movie_requested')
+                    InlineKeyboardButton('⤬ Aᴅᴅ your friends Gʀᴏᴜᴘ for new movies ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat=''),
-                    InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/kannada_movie_d")
-                ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url="https://t.me/bengaluru_boys_movie_kannada")
+                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ & help & support ', callback_data="owner_info")
+                ,[
+                    InlineKeyboardButton('Hero List', callback_data="HERO"),
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
