@@ -95,7 +95,7 @@ async def start(client, message):
                     InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ & help & support ', callback_data="owner_info"),
                     InlineKeyboardButton('⤬ SUGGEST ANY MOVIES ⤬', url="https://t.me/All_language_movie_abot?start=BATCH-BQADBQADagoAAp_TsVWFbL5bRyaMTxYE")
          ],[
-                    InlineKeyboardButton('Hero List', callback_data="HERO"),
+                    InlineKeyboardButton('Hero List', callback_data="hero"),
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -140,7 +140,7 @@ async def start(client, message):
                     InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ & help & support ', callback_data="owner_info"),
                     InlineKeyboardButton('⤬ SUGGEST ANY MOVIES ⤬', url="https://t.me/All_language_movie_abot?start=BATCH-BQADBQADagoAAp_TsVWFbL5bRyaMTxYE")
          ],[
-                    InlineKeyboardButton('Hero List', callback_data="HERO"),
+                    InlineKeyboardButton('Hero List', callback_data="hero"),
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
