@@ -17,7 +17,10 @@ import base64
 logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
-
+def text_filter(m):
+    if m.text == "movie":
+        return True
+    return False
 @Client.on_message(filters.command("serials") & filters.incoming)
 async def serials(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
