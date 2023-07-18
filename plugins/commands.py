@@ -136,7 +136,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ your friends Gʀᴏᴜᴘ for new movies ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
                 ],[
-                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ & help & support ', callback_data="owner_info")
+                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ & help & support ', callback_data="owner_info"),
+                    InlineKeyboardButton('⤬ Aᴅᴅ your friends Gʀᴏᴜᴘ for new movies ⤬', url="https://t.me/All_language_movie_abot?start=BATCH-BQADBQADagoAAp_TsVWFbL5bRyaMTxYE")
          ],[
                     InlineKeyboardButton('Hero List', callback_data="HERO"),
                 ]]
