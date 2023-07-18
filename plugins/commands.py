@@ -17,10 +17,7 @@ import base64
 logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
-def text_filter(m):
-    if m.text == "movie":
-        return True
-    return False
+
 @Client.on_message(filters.command("serials") & filters.incoming)
 async def serials(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
@@ -34,9 +31,14 @@ async def serials(client, message):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
 )
+def text_filter(m):
+    if m.text == "movie":
+        return True
+    return False
 
-@Client.on_message(filters.text("movie") & filters.incoming)
-async def movies(client, message):
+@Client.on_message(filters.text & filters.incoming)
+def handle_movies_message(message):
+    if text_filter(message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
                     InlineKeyboardButton('Hero List', callback_data="hero"),
