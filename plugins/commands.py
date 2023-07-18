@@ -90,10 +90,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ your friends Gʀᴏᴜᴘ for new movies ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('⤬ Aᴅᴅ your friends Gʀᴏᴜᴘ for new movies ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
                 ],[
                     InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ & help & support ', callback_data="owner_info")
-                ,[
+         ],[
                     InlineKeyboardButton('Hero List', callback_data="HERO"),
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -133,11 +133,11 @@ async def start(client, message):
             )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ your friends Gʀᴏᴜᴘ for new movies ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+       buttons = [[
+                    InlineKeyboardButton('⤬ Aᴅᴅ your friends Gʀᴏᴜᴘ for new movies ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
                 ],[
                     InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ & help & support ', callback_data="owner_info")
-                ,[
+         ],[
                     InlineKeyboardButton('Hero List', callback_data="HERO"),
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
