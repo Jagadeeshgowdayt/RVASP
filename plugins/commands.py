@@ -32,7 +32,7 @@ async def serials(client, message):
             parse_mode=enums.ParseMode.HTML
 )
 
-@Client.on_message(filters.command("movies") & filters.incoming)
+@Client.on_message(filters.text("movie") & filters.incoming)
 async def movies(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
