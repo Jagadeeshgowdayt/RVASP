@@ -32,31 +32,25 @@ async def serials(client, message):
             parse_mode=enums.ParseMode.HTML
 )
         
-def text_filter(m):
-    if m.text == "movie":
-        return True
-    return False
 
-
-@Client.on_message(filters.text & filters.incoming)
-async def handle_movies_message(message):
-    if text_filter(message):
-        if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
-            buttons = [[
+@Client.on_message(filters.command("movies") & filters.incoming)
+async def movies(client, message):
+        buttons = [[
                     InlineKeyboardButton('Hero List', callback_data="hero"),
                 ],[
                     InlineKeyboardButton('coming up', callback_data='year')
-            ],[
+        ],[
                     InlineKeyboardButton('coming up', callback_data='genres')
                   ]]
-            reply_markup = InlineKeyboardMarkup(buttons)
-            await message.reply_photo(
-                photo=random.choice(PICS),
-                caption=f"Welcome to the movie bot! Here are some of the movies you can watch: {MOVIES.format(message.from_user.mention, temp.U_NAME, temp.B_NAME)}",
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )        
-            
+        reply_markup = InlineKeyboardMarkup(buttons)
+        m=await message.reply_sticker("CAACAgUAAxkBAAFDeLdkr4COi51mvyZUAAG5l0EmIiwY2J4AAswKAALopYBVbzDUtgk8NrIeBA")
+        await message.reply_photo(
+            photo=random.choice(PICS),
+            caption=script.MOVIES.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+
 @Client.on_message(filters.command("how_to_use") & filters.incoming)
 async def how_to_use(client, message):
         buttons = [[
