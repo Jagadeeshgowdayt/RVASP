@@ -97,12 +97,8 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url="https://t.me/bengaluru_boys_movie_kannada")
                 ],[
-                    InlineKeyboardButton('Hero List', callback_data="hero"),
-                ],[
-                    InlineKeyboardButton('coming up', callback_data='year')
-        ],[
-                    InlineKeyboardButton('coming up', callback_data='genres')
-                  ]]
+                    InlineKeyboardButton('Hero List', callback_data="KANNADA HERO"),
+                ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
