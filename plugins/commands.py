@@ -55,7 +55,7 @@ async def handle_movies_message(message):
                 caption=f"Welcome to the movie bot! Here are some of the movies you can watch: {MOVIES.format(message.from_user.mention, temp.U_NAME, temp.B_NAME)}",
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
-            )
+            )        
             
 @Client.on_message(filters.command("how_to_use") & filters.incoming)
 async def how_to_use(client, message):
