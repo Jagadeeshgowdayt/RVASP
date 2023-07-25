@@ -192,7 +192,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/bengaluru_boys_movie_kannada")
+                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/+ksOHwNKy2gRlMjZl")
                        ],[
                           InlineKeyboardButton("💛❤", url="https://graph.org/file/4add35bca501767e8428f.jpg")
                          ]
@@ -211,7 +211,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/bengaluru_boys_movie_kannada")
+                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/+ksOHwNKy2gRlMjZl")
                        ],[
                           InlineKeyboardButton("💛❤", url="https://graph.org/file/4add35bca501767e8428f.jpg")
                          ]
@@ -330,7 +330,7 @@ async def start(client, message):
                     [
                      [
                       InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/bengaluru_boys_movie_kannada")
+                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/+ksOHwNKy2gRlMjZl")
                    ],[
                       InlineKeyboardButton("💛❤", url="https://graph.org/file/4add35bca501767e8428f.jpg")
                      ]
@@ -384,7 +384,7 @@ async def start(client, message):
             [
              [
               InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/bengaluru_boys_movie_kannada")
+              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/+ksOHwNKy2gRlMjZl")
            ],[
               InlineKeyboardButton("💛❤", url="https://graph.org/file/4add35bca501767e8428f.jpg")
              ]
