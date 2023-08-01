@@ -4,7 +4,7 @@ class script(object):
 I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ᴏʀ Sᴇᴀʀᴄʜ Pᴍ Aɴᴅ Eɴᴊᴏʏ 😍.
  
  
- ★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/new_kannada_movie_2023'>new_kannada_movie_2023� ⎚</a></b>"""
+ ★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/All_language_movie_abot'>All_language_movie_abot� ⎚</a></b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 ✨ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs ✨.</b>"""
@@ -17,7 +17,7 @@ running succsfully  </b>"""
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 - ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/j7net">ʜᴇʀᴇ</a>
 Dᴇᴠᴇʟᴏᴘᴇʀ:
-- <a href="https://t.me/new_kannada_movie_2023">ᴊᴜsᴛ ᴏᴡɴᴇʀ</a> [oF this bot]</b>"""
+- <a href="https://t.me/All_language_movie_abot">ᴊᴜsᴛ ᴏᴡɴᴇʀ</a> [oF this bot]</b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -212,7 +212,7 @@ SLIVER 🥈      : 100 RS ( LIFETIME VALIDITY)
 
  SIZE: <code>{file_size}</code> 
   
- ᴊᴏɪɴ ɴᴏᴡ:<b> [new_kannada_movie_2023 ⎚](https://t.me/new_kannada_movie_2023)</b>"""
+ ᴊᴏɪɴ ɴᴏᴡ:<b> [All_language_movie_abot ⎚](https://t.me/All_language_movie_abot)</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
@@ -226,7 +226,7 @@ IMDb Data:
 
 🔖 sʜᴏʀᴛ : {plot}
 
-★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <b>[new_kannada_movie_2023 ⎚](https://t.me/new_kannada_movie_2023)</b></b>"""
+★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <b>[All_language_movie_abot ⎚](https://t.me/All_language_movie_abot)</b></b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
